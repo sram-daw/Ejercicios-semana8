@@ -30,6 +30,7 @@ public class Juego100 {
             sonIguales = false;
             //El siguiente if hace que solo dé la pista hasta el penúltimo intento.
             if (i<5) {
+                //Si no coincide pueden ocurrir dos cosas en función de si es mayor o menor que el aleatorio.
                 if (numeroUsuario > numeroAleatorio) {
                     System.out.println("Es menor.");
                 }
