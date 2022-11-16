@@ -31,12 +31,12 @@ public class Ejercicio1 {
         boolean salir = false;
         System.out.println("Pulse intro para avanzar en el índice del array y \"s\" para salir.");
         while (!salir) {
-            for (int i = 0; i < array.length; i++) {
+            for (int i = 0; i < array.length & !salir; i++) { //Se debe añadir además la condición de !salir porque si no sigue ejecutando el bucle hasta que no termine la condición de i<array.lenght.
                 System.out.println("El índice " + i + " del array contiene: " + array[i]);
                 Scanner entradaSalir = new Scanner(System.in);
                 String entradaUsuarioIntro = entradaSalir.nextLine();
                 if (entradaUsuarioIntro.equals("s")) {
-                    salir = true; //Se para la ejecución del bucle while porque deja de cumplirse la condición (!salir).
+                    salir = true; //Se para la ejecución del bucle while porque deja de cumplirse la condición (salir==false).
                     System.out.println("Impresión detenida.");
                 }
             }
