@@ -8,7 +8,7 @@ public class Juego100 {
 
     public static int generarNumeroAzar() {
         int numeroAleatorio = 0;
-        numeroAleatorio = (int) (Math.random() * (100 - 1 + 1) + 1); //Genera un número aleatorio del 1 al 100
+        numeroAleatorio = (int) (Math.random() * (100)); //Genera un número aleatorio del 1 al 100
         return numeroAleatorio;
 
     }

@@ -20,7 +20,7 @@ public class Ejercicio3 {
 
     public static int elegirNumeroAzar(int valorMinimo, int valorMaximo) {
         int numeroAleatorio = 0;
-        numeroAleatorio = (int) (Math.floor(Math.random() * (valorMaximo - valorMinimo+1) + valorMinimo)); //Esta es la sintaxis para que genere un número entre dos valores máximo y mínimo.
+        numeroAleatorio = (int) (Math.random() * (valorMaximo - valorMinimo+1) + valorMinimo); //Esta es la sintaxis para que genere un número entre dos valores máximo y mínimo.
         return numeroAleatorio;
     }
 

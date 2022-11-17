@@ -7,7 +7,7 @@ public class Main {
         String pedirNumero = "";
         boolean sonIguales = false;
         numeroAzar = Juego.generarNumeroAzar(); //El return de la función generarNumeroAzar se almacena en la variable numeroAzar.
-        pedirNumero = "¿En qué número estoy pensando del 1 al 10?: ";
+        pedirNumero = "¿En qué número estoy pensando del 0 al 10?: ";
 
         //Hasta que el usuario no adivine (sonIguales=true) el número seguirá preguntando y dando pistas.
         do {

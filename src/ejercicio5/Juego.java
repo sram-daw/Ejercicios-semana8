@@ -7,7 +7,7 @@ public class Juego {
 
     public static int generarNumeroAzar() {
         int numeroAleatorio = 0;
-        numeroAleatorio =  (int) (Math.random() * (10 - 1+1) + 1); //Genera un número aleatorio del 1 al 10
+        numeroAleatorio =  (int) (Math.random() * (10)); //Genera un número aleatorio del 1 al 10
         return numeroAleatorio;
 
     }
